@@ -1,0 +1,351 @@
+baseurl = "localhost:1313"
+languageCode = "en-us"
+title = "MyNinjaDev"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "MyNinjaDev"
+  description = "web sites, php, html, css, laravel, wordpress, seo, design, content"
+  email = "info@myninjadev.com"
+  # Navigation
+  [params.navigation]
+    brand = ""
+    home = "Home"
+    work = "Projects"
+    # testimonials = "Testimonials"
+    # services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "We uncompromisingly seek to transform your ideas into visually speaking industries"
+    # subtitle = ''
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "Cooperate with Ninja Dev?s cool team and have your project?s precise planning done with top-notch quality in no time!"
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Design"
+    description = "Trust the design of your project to our design gurus and enjoy the results that will take you to the next level of your career."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-rocket"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "We are here to develop your most creative ideas into the future-popular websites! Be daring, trust your imagination and our ninja skills!"
+    url = "#"
+    button = "Why us?"
+    icon = "icon-wrench"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Projects"
+    description = "Check out some of our best projects carried out in the past. Ninja Dev team always does its best to meet the needs and expectations of its clients the proof of which are the successfully completed projects displayed below!"
+    # footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      url = "https://dreamcar.eu/"
+      img = "DreamCar.jpg"
+      alt = "DreamCar Holding"
+      title = "DreamCar"
+      subtitle = "DreamCar Holding"
+
+    [[params.work.row]]
+      url = "https://zub.am/"
+      img = "ArmenianDentalClinics.png"
+      alt = "Clinics"
+      title = "Zub.am"
+      subtitle = "Clinics"
+
+    [[params.work.row]]
+      url = "http://www.cctpworld.com/"
+      img = "CCTP.jpg"
+      alt = "CCTP"
+      title = "CCTP"
+      subtitle = "Professional development program"
+
+    [[params.work.row]]
+      url = "https://bavarianautoparts.net/"
+      img = "BavarianAutoParts.jpg"
+      alt = "Bavarian Auto Parts"
+      title = "Bavarian Auto Parts"
+      subtitle = "Auto Parts Shop"
+
+    [[params.work.row]]
+      url = "https://weekndrive.com/"
+      img = "weekndrive.jpg"
+      alt = "weekndrive"
+      title = "Weekndrive"
+      subtitle = "Weekndrive Tour"
+
+    [[params.work.row]]
+      url = "http://lecocqassociate.com/"
+      img = "Lecocqassociate.png"
+      alt = "Lecocqassociate"
+      title = "Lecocqassociate"
+      subtitle = ""
+
+    [[params.work.row]]
+      url = "http://zara.am/"
+      img = "ZaraPetrosyan.png"
+      alt = "ZaraPetrosyan"
+      title = "Zara"
+      subtitle = "Producer & Composer"
+
+    [[params.work.row]]
+      url = "http://armradiology.am/en/"
+      img = "Radiologists.png"
+      alt = "Armenian Association Of Radiology"
+      title = "Armenian Association Of Radiology"
+      subtitle = "Armenian Association Of Radiology"
+
+    [[params.work.row]]
+      url = "https://social.myninjadev.com"
+      img = "social.png"
+      alt = "Ninja hub"
+      title = "Ninja hub"
+      subtitle = "Social All in one"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = false
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    descriptionOne = "Ninja Dev is rapidly growing thanks to its experienced and highly responsible gurus of web design and development who are always eager to deliver the best result leaving you enjoy the result with a satisfying smile on your face!"
+    descriptionTwo = "Ninja Dev has already managed to back itself up with experience which implies previous successfully completed projects that come to prove their high level of competence and demand among its potential customers. Trust your project to our ninja team and be sure that Ninja Dev’s professionalism and customer-oriented policy always pays back!"
+
+    [[params.about.item]]
+      name = "Dave"
+      position = "Web Developer - full stack"
+      description = "Dave is a 6 years old web development Ninja skilled in WordPress, PHP, Laravel, JS, CSS, Hugo and more which, combined with his high sense of responsibility and outgoing character, create a cool and pleasant Ninja."
+      img = "person1.jpg"
+      alt = "Dave"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/david.toghramajyan"],
+        ["icon-linkedin", "https://www.linkedin.com/in/davit-toghramajyan-0a8a15134/"]
+      ]
+
+    
+
+    [[params.about.item]]
+      name = "Nikolay"
+      position = "Web Designer"
+      description = "Nikolay, a 3 years old UI/UX designer with a set of competitive skills of web design are what make Nikolay one of the Ninjas - the creativity, skillfulness and professionalism with which he handles our design projects is simply unparalleled."
+      img = "person1.jpg"
+      alt = "Nikolay"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/nikolay.eghyan"],
+        # ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Zepur"
+      position = "Project Manager"
+      description = "Zepur has mastered the art of Project Management and possesses skills as deep insights in web development, UI/UX, website analytics and SCRUM. These combined with her incomparable leadership skills and multi-language sociable character, makes her the best ninja to deal with."
+      img = "person2.jpg"
+      alt = "Zepur"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/zepur88"],
+        ["icon-linkedin", "https://www.linkedin.com/in/zepur88"]
+      ]
+
+    [[params.about.item]]
+      name = "Hro"
+      position = "Web Developer - full stack"
+      description = "Hro is the slient killer! You can see him but never hear :) You never know what he is doing, but you are sure that the task will be done on time and quality! As said he is our silent Ninja on who we count much!"
+      img = "person2.jpg"
+      alt = "Hrant"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/hrant.shahnazaryan.14"],
+        # ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Gev"
+      position = "Web Developer"
+      description = "Gev is a 6 years old WordPress Ninja skilled in PHP, JS, HTML, CSS. He has mastered web development to the degree of an expert the result of which are his loyal customers and the successful projects he completed in the past years."
+      img = "person3.jpg"
+      alt = "Gev"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/shahnazaryangev"],
+        # ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Sona"
+      position = "Content Writer"
+      description = "Sona, the smallest Ninja in the team, an amazing person to work with, her high creativity and professionalism make her the best content writer anyone would ever want. Don’t know what to write? Sona knows!"
+      img = "person3.jpg"
+      alt = "Sona"
+      social = [
+        # ["icon-twitter", "#"],
+        ["icon-facebook", "https://www.facebook.com/sona.dabaghyan"],
+        # ["icon-linkedin", "#"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = false
+    form = true
+    title = "Get in touch"
+    description = ""
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Norashen District, 16<br />Yerevan, Republic of Armenia"],
+        ["icon-phone", "+374(91)517-715<br />+1(323)481-3620"],
+        ["icon-envelope", '<a href="mailto:info@myninjadev.com">info@myninjadev.com</a>'],
+        # ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Copyright. All Rights Reserved. <br>Created by <a href="https://myninjadev.com/">myninjadev.com</a>'
+    links = [
+        # ["icon-twitter", "#twitter"],
+        # ["icon-facebook", "#facebook"],
+        # ["icon-youtube", "#youtube"]
+      ]
+
